@@ -1,13 +1,18 @@
 package world;
 
 public class Matango {
-	public int hp;
-	public final int LEVEL = 10;
+	public int hp = 50;
 	public char suffix;
 	
-	public void run() {
+	public Matango() {
+		this.suffix = 'A';
+	}
+	public void attack(Hero h) {
 		System.out.println
-		("お化けキノコ" + this.suffix + "逃げ出した!");
+		("キノコ" + this.suffix + "の攻撃");
+		System.out.println(h.name + "に10のダメージ");
+		h.hp = h.hp - 10;
+		System.out.println(h.name + "のHP:" + h.hp);
 	}
 
 }
