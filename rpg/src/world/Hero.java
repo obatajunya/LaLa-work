@@ -1,14 +1,15 @@
 package world;
 
-public class Hero {
-	public String name = "ミナト";
+public class Hero extends Character{
+	public String name;
+	//public String name = "ミナト";
 	public int hp = 100;
 	
 	public Hero() {
 		System.out.println();
 	}
 	public Hero(String name) {
-		this.name = name;
+		//this.name = name;
 	}
 	
 	public void attack(Matango m) {

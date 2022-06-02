@@ -22,8 +22,8 @@ public class Main307 {
 		m2.suffix = 'B';
 		//冒険のはじまり
 		//h.slip();
-		m1.run();
-		m2.run();
+		//m1.run();
+		//m2.run();
 		h.run();
 		//お化けキノコよ、この仮想世界にうまれよ
 		//勇者よ戦えよ
