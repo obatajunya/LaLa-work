@@ -6,9 +6,12 @@ public abstract  class Character {
 	
 	public Character() {}
 	
-	public void run() {
-		System.out.println(this.name + "は逃げ出した");
+	public void fireball(Matango m) {
+		System.out.println("火をだした");
 	}
+//	public void run() {
+//		System.out.println(this.name + "は逃げ出した");
+//	}
 	
 	public abstract void attack(Matango m);
 	

@@ -1,6 +1,6 @@
 package ex11;
 
-public class TangibleAsset extends Asset{
+public abstract class TangibleAsset extends Asset
 						   implements Thing {
 						   String color;
 						   double weight;
@@ -23,4 +23,4 @@ public class TangibleAsset extends Asset{
 	public void setWeight(double weight) {
 		this.weight = weight;}
 	}
-}
+

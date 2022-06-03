@@ -10,12 +10,12 @@ public class Main {
 		Matango m = new Matango('A');
 		Dancer dancer  = new Dancer();
 		dancer.attack(m);
-		dancer.run();
+		//dancer.run();
 		dancer.sleep();
 		
 		Hero hero = new Hero("マシリト");
-		hero.attack(m);
-		hero.run();
+		//hero.attack(m);
+		//hero.run();
 		
 	}
 
