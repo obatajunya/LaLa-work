@@ -15,8 +15,8 @@ public class Main345 {
 		h2.setHp(100);
 		
 		Wizard w = new Wizard();
-		w.name = "スガワラ";
-		w.hp = 50;
+		w.setName("スガワラ");
+		w.setHp(50);
 		w.heal(h1);
 		w.heal(h2);
 		w.heal(h2);

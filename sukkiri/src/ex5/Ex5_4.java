@@ -2,7 +2,10 @@ package ex5;
 
 public class Ex5_4 {
 	public static void main(String[] args) {
-		double area1 = calcTriangleArea(10.0, 5.0);
+		double bottom = 10.0;
+		double height = 5.0;
+		
+		double area1 = calcTriangleArea(bottom, height);
 		System.out.println("底辺:" + bottom +
 				"高さ:" + height + 
 				"の三角形の面積は " + area1 + "平方cmです");
@@ -13,9 +16,9 @@ public class Ex5_4 {
 		"円の面積は" + area2 + "平方cmです");
 	}
 	
-	public static double calcTriangleArea(double bottle,
+	public static double calcTriangleArea(double bottom,
 										  double height) {
-		return bottle * height / 2.0;
+		return bottom * height / 2.0;
 				
 	}
 	

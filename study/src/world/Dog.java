@@ -3,8 +3,8 @@ package world;
 public class Dog extends Animal{
 	
 	public void roar() {
-		System.out.println(this.name + "吠えた.");
+		System.out.println(this.getName() + "吠えた.");
 		System.out.println("hpが1使った");
-		this.hp = this.hp -1;
+		this.setHp(this.getHp() -1);
 	}
 }
